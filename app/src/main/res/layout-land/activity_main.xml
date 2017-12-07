@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/fundomenu"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/botaolistar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/botaoadicionar"
+        android:layout_marginStart="65dp"
+        android:onClick="trataEventoBotaoTelaLista"
+
+        android:layout_toEndOf="@+id/botaoadicionar"
+        android:background="@drawable/listar" />
+
+    <Button
+        android:id="@+id/botaosobre"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/botaoadicionar"
+        android:layout_marginBottom="12dp"
+        android:onClick="trataEventoBotaoTelaSobre"
+        android:background="@drawable/sobre" />
+
+    <Button
+        android:id="@+id/botaoadicionar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="20dp"
+        android:onClick="trataEventoBotaoTelaCadastra"
+
+        android:background="@drawable/adicionar" />
+
+    <Button
+        android:id="@+id/botaosair"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/botaolistar"
+        android:layout_alignTop="@+id/botaosobre"
+        android:background="@drawable/sair"
+        android:onClick="trataEventoBotaoSair" />
+
+</RelativeLayout>

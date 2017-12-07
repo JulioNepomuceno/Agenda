@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundomenu"
+    tools:context="com.julio_hortenciohotmail.agenda.ContatoLista"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/listViewContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.99" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnovoContato"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btvoltarInicio"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="44dp"
+                android:background="@android:color/holo_orange_light"
+                android:onClick="trataEventoBotaoTelaNovoContato"
+                android:text="Novo Contato" />
+
+            <Button
+                android:id="@+id/btvoltarInicio"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_toEndOf="@+id/btnovoContato"
+                android:onClick="voltarTelaInicial2"
+                android:background="@android:color/holo_orange_light"
+                android:text="Voltar" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundomenu"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageEngrenagem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/engrenagem"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textFacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="8sp"
+        android:text="Faculdade Católica do Tocantins"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_below="@+id/imageEngrenagem"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/textDescricaoAPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Salve seus contatos no novo aplicativo agenda telefônica"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textFacto"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textProgramador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textDescricaoAPP"
+        android:layout_below="@+id/textDescricaoAPP"
+        android:layout_marginTop="34dp"
+        android:fontFamily="monospace"
+        android:text="Programador: Júlio Hortêncio"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDesigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="monospace"
+        android:text="Designer: Júlio Hortêncio"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textProgramador"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="trataEventoBotaoSairSobre"
+        android:text="Voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

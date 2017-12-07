@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/julio/AndroidStudioProjects/Agenda/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="52622136ff0450fb6d24de84a6e13b505886f014">
+        <dex dex="/home/julio/AndroidStudioProjects/Agenda/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_86dacc492f3fc19cea6ff738bb99cc7f23c9e42f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/julio/AndroidStudioProjects/Agenda/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/julio/AndroidStudioProjects/Agenda/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_02d68f50b2019dad6c139021123fbd49f386ba41/classes.dex" />
+    </item>
+
+</items>
